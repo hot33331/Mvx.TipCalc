@@ -66,6 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\TipView.axml" />
+    <AndroidResource Include="Resources\layout\TodoList.axml" />
     <AndroidResource Include="Resources\values\colors.xml" />
     <AndroidResource Include="Resources\values\ic_launcher_background.xml" />
     <AndroidResource Include="Resources\values\strings.xml" />
@@ -73,7 +74,10 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MvvmCross" Version="6.3.1" />
-    <PackageReference Include="Xamarin.Android.Support.Design" Version="27.0.2.1" />
+    <PackageReference Include="MvvmCross.Droid.Support.V7.RecyclerView" Version="6.3.1" />
+    <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.1" />
+    <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="28.0.0.1" />
+    <PackageReference Include="Xamarin.Android.Support.v7.RecyclerView" Version="28.0.0.1" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets" />
